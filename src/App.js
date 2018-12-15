@@ -3,6 +3,7 @@ import OldCounter from './components/OldCounter';
 import Counter from './components/Counter';
 import OldLife from './components/OldLife';
 import NewLife from './components/NewLife';
+import Reducer from './Reducer';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Counter />
         <OldLife />
         <NewLife />
+        <Reducer />
       </div>
     );
   }
